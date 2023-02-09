@@ -12,25 +12,25 @@
 		
 		<div>
 			<label for="name">Name*</label>
-		<input type="text" id=#name required="required" name="name" > 
+		<input type="text" id=name required > 
 		</div>
 
 		<div>
 			<label for="email">Email*</label>
-	<input type="email" id=#email required="required" name="email" > 
+	<input type="email" id=email required > 
 		</div>
 
 		<div>
 			<label for="gender">Gender</label>
 			<label for="man" >Men</label>
-			<input type="radio" name="gender" required >
+			<input type="radio" name="gender" required id="gender">
 			<label for="Female">Female</label>
-				<input type="radio" name="gender" required>
+				<input type="radio" name="gender" required id="gender">
 		</div>
 	
 	<div>
-	<label>Laptop Brands</label>
-	<select id=#laptop name="laptop">
+	<label for=""laptop">Laptop Brands</label>
+	<select id=laptop name="laptop">
 		
 		<option value="b">Apple</option>
 		<option value="c">Asus</option>
@@ -41,22 +41,25 @@
 
 	<div>
 		<label for="age">Age*</label>
-		<input type="number" required id="#age" name="age">
+		<input type="number" required id="age" >
 	</div>
 
 	<div>
-		<label>DOB*</label> 
-	<input type="date" id=#dob required name="dob"> 
+		<label for="dob">DOB*</label> 
+	<input type="date" id=dob required > 
 	</div>
 
 	<div>
 		<label for="password">Password*</label>
-	<input type="password" id=#password required name="pass"> 
+	<input type="password" id=password required > 
 	</div>
 	
 		
+	<div>
+		<label for="portfolio"> Portfolio</label>
+		<input type="url"  id=portfolio required>
+	</div>
 	
-	<input type="url" name="portfolio" id=portfolio placeholder="Url">
 		<button type="button">submit</button>
 	</form>
 	
